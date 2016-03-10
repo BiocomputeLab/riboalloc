@@ -14,11 +14,10 @@ N_h    = 100.0;      % Steady-state mRNA count (this is varied)
 t_e    = 17.0;       % Average 340aa gene ~ 20 aa/sec
 t_h    = 17.0;       % Average 340aa gene ~ 20 aa/sec
 s_h    = 340/9;      % Average 340 codons, ribosome ~9 codons footprint
-t_end  = 10*60;      % Time to run simulation
+t_end  = 10*60;      % Time to run simulation (must make sure sufficent to reach steady-state)
 
 % Run the model
-%sol = riboalloc(R_pool, a_e, a_h*1000, N_e, 1000.0, t_e, cur_t_h, s_h, t_end);
-sol = riboalloc(R_pool, a_e, a_h, N_e, 100.0, t_e, cur_t_h, s_h, t_end);
+sol = riboalloc(R_pool, a_e, a_h, N_e, 100.0, t_e, t_h, s_h, t_end);
 
 % Plot the solution
 figure;
