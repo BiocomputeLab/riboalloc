@@ -1,7 +1,7 @@
 %--------------------------------------------------------------------------
 % Author:  Thomas E. Gorochowski
 % Updated: 19th August 2015
-% License: GNU GPL-3.0 license
+% License: GNU GPLv3 license
 %--------------------------------------------------------------------------
 
 % Model parameters

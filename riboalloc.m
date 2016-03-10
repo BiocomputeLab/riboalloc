@@ -22,7 +22,7 @@ function out = riboalloc (R_pool, a_e, a_h, N_e, N_h, t_e, t_h, s_h, t_end)
 %--------------------------------------------------------------------------
 % Author:  Thomas E. Gorochowski
 % Updated: 19th August 2015
-% License: GNU GPL-3.0 license
+% License: GNU GPLv3 license
 %--------------------------------------------------------------------------
 
     % Delays for the [endogenous, heterologous] number of transcripts
